@@ -1,0 +1,31 @@
+{
+  "name": "sonima-trustline-explainer",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Read-only explorer for a Stellar account's trustlines, limits, and remaining receiving capacity. No wallet connection required.",
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "eslint",
+    "typecheck": "tsc --noEmit",
+    "test": "vitest run"
+  },
+  "dependencies": {
+    "next": "^16.3.7",
+    "react": "^19.2.7",
+    "react-dom": "^19.2.7"
+  },
+  "devDependencies": {
+    "@testing-library/react": "^16.3.2",
+    "@types/node": "^22",
+    "@types/react": "^19",
+    "@types/react-dom": "^19",
+    "@vitejs/plugin-react": "^4.3.4",
+    "eslint": "^9",
+    "eslint-config-next": "^16.3.7",
+    "jsdom": "^25.0.1",
+    "typescript": "^5",
+    "vitest": "^2.1.9"
+  }
+}
